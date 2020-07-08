@@ -20,7 +20,7 @@ Omdat er een nieuwe tool gebouwd wordt voor het web heeft de opdrachtgever, dire
 > Een instructeur moet actuele mededelingen, persoonlijke gegevens en alle gegevens inzake de eigen rijlessen kunnen bekijken en/of wijzigen.
 
 
-### Probleem Gestuurd Onderwijs
+### Challenge Procdure
 
 1. Vorm een groep van 3-5 personen
 2. Bespreek de bovenstaande casus samen met je coach
@@ -30,5 +30,14 @@ Omdat er een nieuwe tool gebouwd wordt voor het web heeft de opdrachtgever, dire
    - Welke technieken zijn er nodig om tijdens dit project toe te passen?
    - Welke kennis is binnen je codegroep aanwezig?
    - Welke kennis mis je nog?
-   - 
+
+
+
+### OPLEVERING
+
+- Na 5 weken lever je met je team een werkbare applicatie op
+- Elke student is verantwoordelijk voor het gemaakte werk
+  - Iedere student krijgt de verantwoordelijkheid voor een userstory is
+  - Iedere student kan elke code toelichten
+  - 
 
