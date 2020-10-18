@@ -34,7 +34,7 @@
    <body id="home_page" class="home_page">
       <!-- loader -->
       <div id="preloader">
-         <img class="preloader" src="images/logo.png" alt="#">
+         <img class="preloader" src="images/gay2.jpg" alt="#">
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -46,7 +46,7 @@
                <div class="col-lg-3">
                   <div class="full">
                      <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                        <a href="index.html"><img src="images/gay2.jpg" alt="#" /></a>
                      </div>
                   </div>
                </div>
@@ -54,9 +54,9 @@
                   <div class="full">
                       <div class="top_section_info">
                          <ul>
-                           <li>Contact Us: <img src="images/i1.png" alt="#" /> <a href="#">( +71 7569834142 )</a></li>
-                           <li><img src="images/i2.png" alt="#" /> <a href="#">honey@gmail.com</a></li>
-                           <li><img src="images/i3.png" alt="#" /> <a href="#">104 New york , USA</a></li>
+                           <li>Contacteer ons: <img src="images/i1.png" alt="#" /> <a href="#">( +71 7569834142 )</a></li>
+                           <li><img src="images/i2.png" alt="#" /> <a href="#">easydrive@gmail.com</a></li>
+                           <li><img src="images/i3.png" alt="#" /> <a href="#">Huizenlaan 23 Den bosch , NL</a></li>
                         </ul>
                       </div>
                   </div>
@@ -81,27 +81,26 @@
                            <div class="collapse navbar-collapse justify-content-md-center" id="cloapediamenu">
                               <ul class="navbar-nav">
                                  <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link" href="index.php">Home</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link color-aqua-hover" href="about.html">About</a>
+                                    <a class="nav-link color-aqua-hover" href="about.html">Over ons</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link color-aqua-hover" href="jewellery.html">Jewellery</a>
+                                    <a class="nav-link color-aqua-hover" href="overzicht.php">Overzicht</a>
                                  </li>
+                                
                                  <li class="nav-item">
-                                    <a class="nav-link color-grey-hover" href="shop.html">Shop</a>
+                                    <a class="nav-link color-grey-hover" href="contact.php">Aanmelden</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link color-grey-hover" href="contact.html">Contact</a>
-                                 </li>
+                                
                               </ul>
                            </div>
                         </nav>
                      </div>
                      <div class="search_bar">
                         <form action="index.html">
-                           <input type="text" class="search_field" placeholder="Search" required />
+                           <input type="text" class="search_field" placeholder="Zoek" required />
                            <button class="search_button" type="button"><i class="fa fa-search"></i></button>
                         </form>
                      </div>
@@ -117,12 +116,15 @@
             <div class="row">
                <div id="main_slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
                   <div class="carousel-inner">
-                     <div class="carousel-item slider_inner slider1 active">
+                     <div class="carousel-item slider_inner L active "><img src="images/L.png"  alt="" >
                         <div class="container">
                            <div class="row">
                               <div class="slider_coint_inner">
-                                 <h3>Best<br><strong>New Collection</strong></h3>
-                                 <h4 class="font_themecolor">Loxury Jewellery</h4>
+                                 <h3>Gegarandeert<br><strong>Je rijbewijs halen</strong></h3>
+                                 <h4 class="font_themecolor">Rijschool Easydrive</h4>
+                                 <div class="field center">
+                                       <a href="contact.php">Direct Aanmelden</a>
+                                       </div
                                  <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit elit at felis<br>
                                     lacinia nec et est aptent taciti sociosqu ad litora torquent per conubia nostra</p>
                               </div>
@@ -160,7 +162,7 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="full heading_s1">
-                     <h2>About</h2>
+                     <h2>Waarom Easydrive?</h2>
                   </div>
                   <div class="full">
                      <p class="large">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
@@ -168,7 +170,7 @@
                </div>
                <div class="col-md-12">
                   <div class="about_img margin_top_30  text_align_center">
-                     <img src="images/video_img.jpg" alt="#" />
+                     <img src="images/auto.png" alt="#" />
                   </div>
                </div>
             </div>
@@ -182,7 +184,7 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="full heading_s1">
-                     <h2>Jewellery</h2>
+                     <h2>Onze prijzen</h2>
                   </div>
                   <div class="full">
                      <p class="large">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
@@ -192,38 +194,38 @@
             <div class="row product_section">
                <div class="col-md-4"> 
                   <div class="full product_blog margin_top_30">
-                     <img src="images/pro1.jpg" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                     <img src="images/pakket a.png" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">Pakket A</span> €599</h3>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="full product_blog margin_top_30">
-                     <img src="images/pro2.jpg" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                     <img src="images/pakket b.png" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">Pakket B</span> €899</h3>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="full product_blog margin_top_30">
-                     <img src="images/pro3.jpg" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                     <img src="images/pakket c.png" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">Pakket C</span> €1209</h3>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="full product_blog margin_top_30">
-                     <img src="images/pro3.jpg" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                     <img src="images/pakket d.png" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">Pakket D</span> €1525</h3>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="full product_blog margin_top_30">
-                     <img src="images/pro4.jpg" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                     <img src="images/spoedopleiding.png" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">Spoedopleiding</span> €1050</h3>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="full product_blog margin_top_30">
-                     <img src="images/pro5.jpg" alt="#" />
-                     <h3><span style="color: #72dd78 !important;">$100</span> Diamond ring</h3>
+                     <img src="images/tijdelijke actie.png" alt="#" />
+                     <h3><span style="color: #72dd78 !important;">Tijdelijke actie</span> €250</h3>
                   </div>
                </div>
             </div>
@@ -237,7 +239,7 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="full heading_s1">
-                     <h2>Our Shop</h2>
+                     <h2>Over ons</h2>
                   </div>
                   <div class="full">
                      <p class="large">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
@@ -257,13 +259,13 @@
                    <div class="container">
                     <div class="col-md-8">
                      <div class="full banner_section">
-                         <h3>Best <span style="color: #72dd78 !important;">Jewellery Shop</span></h3>
+                         <h3>Beste <span style="color: #72dd78 !important;">Keuze</span></h3>
                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
                      </div>
                     </div>
                  </div>
                   </div>
-                 <img class="img-responsive" src="images/bg1.jpg" alt="#" />
+                 <img class="img-responsive" src="images/interieur.png" alt="#" />
               </div>
             </div>
          </div>
@@ -276,7 +278,7 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="full text_align_center heading_s1">
-                     <h2 style="width: 100%;text-align: center;">Contact Us</h2>
+                     <h2 style="width: 100%;text-align: center;">Aanmelden</h2>
                   </div>
                </div>
             </div>
@@ -286,27 +288,33 @@
                      <div class="row">
                         <div class="col-md-6"> 
                             <div class="gold_con">
-                               <img src="images/gold_c.png" alt="#" />
+                               <img src="images/blij.png" alt="#" />
                             </div>
                         </div>
                         <div class="col-md-6">
                            <div class="form_cont">
-                               <form action="index.html">
+                               <form action="dbconn/dbconnA.php">
                                   <fieldset>
                                      <div class="field">
-                                        <input type="text" name="name" placeholder="Name" />
+                                        <input type="text" name="voornaam" placeholder=" Voornaam" />
+                                     </div>
+                                     <div class="field">
+                                        <input type="text" name="achternaam" placeholder=" Achternaam" />
                                      </div>
                                      <div class="field">
                                         <input type="email" name="email" placeholder="Email" />
                                      </div>
                                      <div class="field">
-                                        <input type="text" name="phone" placeholder="Phone" />
+                                        <input type="text" name="tel" placeholder="Telefoon" />
                                      </div>
                                      <div class="field">
-                                        <textarea placeholder="Message" ></textarea>
+                                        <input type="text" name="leeftijd" placeholder="Leeftijd" />
+                                     </div>
+                                     <div class="field">
+                                        <input type="text" name="opmerkingen" placeholder="Overige Opmerkingen" />
                                      </div>
                                      <div class="field center">
-                                       <button>Send</button>
+                                       <button type="submit">Aanmelden</button>
                                   </fieldset>
                                </form>
                            </div>
@@ -325,7 +333,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-3 col-sm-12">
-                  <a href="index.html"><img class="img-responsive" src="images/logo_footer.png" alt="#" /></a>
+                  <a href="index.html"><img class="img-responsive" src="images/gay2.jpg" alt="#" /></a>
                </div>
 
                <div class="col-md-3 col-sm-12">
