@@ -80,11 +80,11 @@
                          <li class="nav-item">
                             <a class="nav-link color-aqua-hover" href="about.html">Over ons</a>
                          </li>
-                         <li class="nav-item active">
+                         <li class="nav-item ">
                             <a class="nav-link color-aqua-hover" href="overzicht.php">Overzicht</a>
                          </li>
-                         <li class="nav-item ">
-                            <a class="nav-link color-aqua-hover" href="lesoverzicht.php">Les Overzicht</a>
+                         <li class="nav-item active">
+                            <a class="nav-link color-aqua-hover" href="overzicht.php">Les Overzicht</a>
                          </li>
                         
                          <li class="nav-item">
@@ -109,71 +109,19 @@
     </div>
  </div>
 </header>
- <?php require('dbconn/dbconn.php') ?>
-    
-    
 
-<!DOCTYPE html>
 
 <html>
-<head>
+<body>
+<h2>Zoek lesrooster Lid:</h2>
+<form action="dbconn/dbconnLessen.php" method="get">
+ <input type="text"placeholder='Naam' name="naam"><br>
+ <br>
+<input type="submit" value='Toon gegevens'>
+</form>
 
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  background-color: lightgreen;
- 
-}
-
-td, th {
-  border: 2px solid black;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-</head>
-
-
-
-<h2>Overzicht leden</h2>
-
-<table>
-
-  <tr>
-  
-    <th>ID</th>
-    <th>Voornaam</th>
-    <th>Achternaam</th>
-    <th>Email</th>
-    <th>Telefoon</th>
-    <th>Leeftijd</th>
-    <th>Opmerkingen</th>
-   
-  </tr>
-  <tbody>
-   <?php foreach($database_gegevens as $data):?>
-  <tr>
-    <td><?php echo $data["id"]?></td>
-    <td><?php echo $data["voornaam"]?></td>
-    <td><?php echo $data["achternaam"]?></td>
-    <td><?php echo $data["email"]?></td>
-    <td><?php echo $data["telefoon"]?></td>
-    <td><?php echo $data["leeftijd"]?></td>
-    <td><?php echo $data["opmerkingen"]?></td>
-    
-    
-    
-  </tr>
-  </tbody>
-  </tr>
-  <?php endforeach; ?>
-</table>
+</body>
+</html>
 
 </body>
 </html>

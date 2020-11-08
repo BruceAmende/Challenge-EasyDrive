@@ -6,7 +6,7 @@
    <!-- Mobile Metas -->
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <!-- Site Metas -->
-   <title>Loxury</title>
+   <title>Easydrive</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -87,12 +87,18 @@
                                     <a class="nav-link color-aqua-hover" href="about.html">Over ons</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link color-aqua-hover" href="jewellery.html">Overzicht</a>
+                                    <a class="nav-link color-aqua-hover" href="overzicht.php">Overzicht</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link color-aqua-hover" href="lesoverzicht.php">Les overzicht</a>
                                  </li>
                                
                                  <li class="nav-item active">
                                     <a class="nav-link color-grey-hover" href="contact.php">Aanmelden</a>
                                  </li>
+                                 <li class="nav-item ">
+                            <a class="nav-link color-grey-hover" href="login.php">Inloggen</a>
+                         </li>
                               </ul>
                            </div>
                         </nav>
@@ -112,6 +118,8 @@
        <!-- inner page -->
       <section class="innerpage_banner">
          <div class="container">
+               
+            
             <div class="row">
                <div class="col-sm-12">
                   <div class="full">
@@ -123,8 +131,11 @@
                   </div>
                   <div class="col-md-6">
                            <div class="form_cont">
-                               <form method='get' action="dbconn/dbconnA.php">
+                               <form action="dbconn/dbconnA.php" method='get'>
                                   <fieldset>
+                                  <div class="field">
+                                        <input type="number" name="id" placeholder=" id" />
+                                     </div>
                                      <div class="field">
                                         <input type="text" name="voornaam" placeholder=" Voornaam" />
                                      </div>
@@ -135,13 +146,16 @@
                                         <input type="email" name="email" placeholder="Email" />
                                      </div>
                                      <div class="field">
-                                        <input type="text" name="tel" placeholder="Telefoon" />
+                                        <input type="number" name="tel" placeholder="Telefoon" />
                                      </div>
                                      <div class="field">
-                                        <input type="text" name="leeftijd" placeholder="Leeftijd" />
+                                        <input type="number" name="leeftijd" placeholder="Leeftijd" />
                                      </div>
                                      <div class="field">
                                         <input type="text" name="opmerkingen" placeholder="Overige Opmerkingen" />
+                                     </div>
+                                     <div class="field">
+                                        <input type="password" name="ww" placeholder="Wachtwoord" />
                                      </div>
                                      <div class="field center">
                                        <button type="submit">Aanmelden</button>

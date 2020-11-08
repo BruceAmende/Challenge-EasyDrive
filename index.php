@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
    <!-- Basic -->
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,9 +38,34 @@
       <!-- end loader -->
       <!-- header -->
       <header class="header">
+      
 
         <div class="header_top_section">
            <div class="container">
+           <?php
+
+session_start();
+
+if (!isset($_SESSION['loggedin'])) {
+	header('Location: login.php');
+	exit;
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<body class="loggedin">
+		<nav class="navtop">
+			<div>
+				
+				<a href="profiel.php"><i class="fas fa-user-circle"></i>Profiel</a>
+				<a href="loguit.php"><i class="fas fa-sign-out-alt"></i>Loguit</a>
+			</div>
+		</nav>
+		<div class="content">
+			
+			<p>Welcom terug, <?=$_SESSION['name']?>!</p>
+		</div>
+               
               <div class="row">
                <div class="col-lg-3">
                   <div class="full">
@@ -89,9 +113,15 @@
                                  <li class="nav-item">
                                     <a class="nav-link color-aqua-hover" href="overzicht.php">Overzicht</a>
                                  </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link color-aqua-hover" href="lesoverzicht.php">Les overzicht</a>
+                                 </li>
                                 
                                  <li class="nav-item">
                                     <a class="nav-link color-grey-hover" href="contact.php">Aanmelden</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link color-grey-hover" href="login.php">Inloggen</a>
                                  </li>
                                 
                               </ul>
@@ -273,58 +303,7 @@
       <!-- end section -->
 
       <!-- section -->
-      <section class="layout_padding section padding_bottom_0">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="full text_align_center heading_s1">
-                     <h2 style="width: 100%;text-align: center;">Aanmelden</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="contact_section margin_top_30">
-                     <div class="row">
-                        <div class="col-md-6"> 
-                            <div class="gold_con">
-                               <img src="images/blij.png" alt="#" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="form_cont">
-                               <form action="dbconn/dbconnA.php">
-                                  <fieldset>
-                                     <div class="field">
-                                        <input type="text" name="voornaam" placeholder=" Voornaam" />
-                                     </div>
-                                     <div class="field">
-                                        <input type="text" name="achternaam" placeholder=" Achternaam" />
-                                     </div>
-                                     <div class="field">
-                                        <input type="email" name="email" placeholder="Email" />
-                                     </div>
-                                     <div class="field">
-                                        <input type="text" name="tel" placeholder="Telefoon" />
-                                     </div>
-                                     <div class="field">
-                                        <input type="text" name="leeftijd" placeholder="Leeftijd" />
-                                     </div>
-                                     <div class="field">
-                                        <input type="text" name="opmerkingen" placeholder="Overige Opmerkingen" />
-                                     </div>
-                                     <div class="field center">
-                                       <button type="submit">Aanmelden</button>
-                                  </fieldset>
-                               </form>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+
       <!-- end section -->
 
      
