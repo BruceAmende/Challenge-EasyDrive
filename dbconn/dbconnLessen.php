@@ -146,9 +146,12 @@ body{
 }
 
 td, th {
-  border: 3px solid black;
+  border: 2px solid black;
   text-align: left;
   padding: 8px;
+  color: black;
+  background-color: yellow;
+  
 }
 
 tr:nth-child(even) {
@@ -161,7 +164,7 @@ tr:nth-child(even) {
     <h2>Gevonden lesrooster van <?php echo $_GET["naam"]?> :</h2>
   <tr>
   
-    <th>ID</th>
+    
     <th>Datum</th>
     <th>Tijd</th>
     <th>Ophaaladres</th>
@@ -171,12 +174,12 @@ tr:nth-child(even) {
   <tbody>
    <?php foreach($database_gegevens as $data):?>
   <tr>
-    <td><?php echo $data["voornaam"]?></td>
-    <td><?php echo $data["achternaam"]?></td>
-    <td><?php echo $data["email"]?></td>
-    <td><?php echo $data["wachtwoord"]?></td>
-    <td><?php echo $data["team"]?></td>
-    <td><?php echo $data["contributie"]?></td>
+    
+    <td><?php echo $data["datum"]?></td>
+    <td><?php echo $data["tijd"]?></td>
+    <td><?php echo $data["ophaaladres"]?></td>
+    <td><?php echo $data["opmerkingen"]?></td>
+    <td><?php echo $data["naam"]?></td>
     
   </tr>
   </tbody>
