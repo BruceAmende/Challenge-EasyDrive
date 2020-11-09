@@ -38,6 +38,11 @@
       <!-- end loader -->
       <!-- header -->
       <header class="header">
+      <style> 
+         a,p{
+            color: white;
+         }
+         </style>
       
 
         <div class="header_top_section">
@@ -63,7 +68,7 @@ if (!isset($_SESSION['loggedin'])) {
 		</nav>
 		<div class="content">
 			
-			<p>Welcom terug, <?=$_SESSION['name']?>!</p>
+			<p>Welkom terug, <?=$_SESSION['name']?>!</p>
 		</div>
                
               <div class="row">
